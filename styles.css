@@ -1,0 +1,87 @@
+/* Style général */
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #1e1e2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background: #2e2e3e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Animation du texte */
+.typing {
+    font-size: 22px;
+    font-weight: 600;
+    color: #00ffaa;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #ffcc00;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Liste */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "➤";
+    color: #00ffaa;
+    margin-right: 10px;
+}
+
+/* Code */
+code {
+    background-color: #3a3a4a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    color: #ffcc00;
+}
+
+/* Liens */
+a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
